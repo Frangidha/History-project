@@ -94,3 +94,14 @@ section {height: 1200px;
     overflow: hidden;
     height: 600px;
 }
+.left-about-heading  h2{color:white
+; text-align: center; line-height: 30px;}
+.right-about-heading h2{color:white
+    ; text-align: center; line-height: 30px;}
+.center-about-heading h2{color:white
+        ; text-align: center; line-height: 30px;}
+
+    section background-img:hover{
+        border-color: #66afe9;
+        box-shadow: 0 0 100px rgba(0,0,255, 1);
+      }
