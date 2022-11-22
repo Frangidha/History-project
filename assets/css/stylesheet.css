@@ -53,3 +53,44 @@ h1, h2{
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* navigation links images*/
+
+section {height: 1200px;
+    clear: both;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-image: url("/assets/images/politcal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 600px;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-image: url("/assets/images/personal\ life.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 600px;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-image: url("/assets/images/legendary\ battles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 600px;
+}
