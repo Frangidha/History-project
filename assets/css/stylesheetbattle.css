@@ -1,0 +1,34 @@
+    #hero-outer{
+        height:600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #hero-image{
+    height: 400px;
+    width: 100%;
+    background-image: url("/assets/images/legendary\ battles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;}
+
+
+
+    #contentwrapper {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        
+        }
+        #content {
+        padding-left: 260px;
+        }
+        #right {
+        float: right;
+        width: 50%;
+        }
+        #rightImgdiv {
+        width: 100%;
+        }

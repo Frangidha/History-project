@@ -131,7 +131,7 @@ section {height: 1200px;
         width: 6px;
         background-color: white;
         top: 0;
-        bottom: 0;
+        bottom: 15%;
         left: 50%;
         margin-left: -3px;
       }
@@ -240,4 +240,6 @@ section {height: 1200px;
           left: 0%;
         }
       }
+
+      
       
