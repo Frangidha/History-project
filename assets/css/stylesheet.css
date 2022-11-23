@@ -7,6 +7,7 @@
 body{
     font-family: Lato, sans-serif;
     color: #3a3a3a;
+    background-color: red;
 }
 
 /* headings and logo */
@@ -53,6 +54,8 @@ h1, h2{
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
+header { padding-bottom: 70px;}
+
 
 /* navigation links images*/
 
@@ -113,11 +116,12 @@ section {height: 1200px;
 /*timeline poltical */
       
       
-      /* The actual timeline (the vertical ruler) */
+      /*timeline */
       .timeline {
         position: relative;
         max-width: 1200px;
         margin: 0 auto;
+        padding: 50px;
       }
       
       /* The actual timeline (the vertical ruler) */
@@ -132,7 +136,6 @@ section {height: 1200px;
         margin-left: -3px;
       }
       
-      /* Container around content */
       .container {
         padding: 10px 40px;
         position: relative;
@@ -154,17 +157,17 @@ section {height: 1200px;
         z-index: 1;
       }
       
-      /* Place the container to the left */
+      
       .left {
-        left: 0;
+        left: -6.7%;
       }
       
-      /* Place the container to the right */
+      
       .right {
         left: 50%;
       }
       
-      /* Add arrows to the left container (pointing right) */
+      
       .left::before {
         content: " ";
         height: 0;
