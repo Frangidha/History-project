@@ -1,5 +1,5 @@
     #hero-outer{
-        height:600px;
+        height:auto;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -31,4 +31,22 @@
         }
         #rightImgdiv {
         width: 100%;
+        }
+
+
+        #cover-text, #cover-text h2 {
+            color: white;
+        }
+        
+        #cover-text {
+            font-size: 300%;
+            font-family: Oswald;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-align: center;
+
+            bottom: 200px;
+            
+            position: relative;
+        
         }

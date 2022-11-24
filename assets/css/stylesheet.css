@@ -244,11 +244,12 @@ header { padding-bottom: 70px;}
 
       .social-networks li{
         display: inline;
-        }   
+        position: relative;
+        bottom: 75px;}   
 
       .social-networks i{
         font-size: 160%;
-      
+        
         padding: 5%;
         color: #3a3a3a;
         }     
@@ -262,3 +263,10 @@ header { padding-bottom: 70px;}
 
       #about-Ceasar h3 { text-align: center;
         margin: 8px;}
+
+      #icon {
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
