@@ -128,14 +128,20 @@ header { padding-bottom: 70px;}
         color: #3a3a3a;
         }     
       
-      /* section about */
+      /* section about - ceasar */
       
-      #about-Ceasar p{
-      text-align: center;
+      #about-ceasar p{
+    
       margin: 8px;
       }
 
-      #about-Ceasar h3 { text-align: center;
-        margin: 8px;}
+      #about-ceasar h2 {
+        margin-top:50px;
+    margin-bottom: 16px;}
 
- 
+    #about-ceasar {text-align: center;
+            width: 50%;
+           position: relative;
+           left: 25%;}
+           
+          

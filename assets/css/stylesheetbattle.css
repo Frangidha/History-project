@@ -50,3 +50,25 @@
             position: relative;
         
         }
+        
+        #battle-section {
+
+            clear: both;
+        }
+
+        #battle-summary {text-align: center;
+         width: 50%;
+        position: relative;
+        left: 25%;}
+        
+        #battle-summary p {
+        margin: 8px;}
+
+        #battle-summary h2 {
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+
+        #battle-section h2 {text-align: center;}
+
+        details {background-color:red;}
