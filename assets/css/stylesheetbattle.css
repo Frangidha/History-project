@@ -14,27 +14,7 @@
     background-position: center;
     overflow: hidden;}
 
-
-
-    #contentwrapper {
-        width: 80%;
-        margin-right: auto;
-        margin-left: auto;
-        
-        }
-        #content {
-        padding-left: 260px;
-        }
-        #right {
-        float: right;
-        width: 50%;
-        }
-        #rightImgdiv {
-        width: 100%;
-        }
-
-
-        #cover-text, #cover-text h2 {
+#cover-text, #cover-text h2 {
             color: white;
         }
         
@@ -50,6 +30,11 @@
             position: relative;
         
         }
+
+   
+
+
+        
         
         #battle-section {
 
@@ -71,4 +56,49 @@
 
         #battle-section h2 {text-align: center;}
 
-        details {background-color:red;}
+
+        details {
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            padding: .5em .5em 0;
+            
+        }
+        
+        summary {
+            font-weight: bold;
+           
+            padding: .5em;
+        }
+        
+        details[open] {
+            padding: .5em;
+           
+        }
+        
+        details[open] summary {
+            border-bottom: 1px solid #aaa;
+            margin-bottom: .5em;
+        }
+        
+        .container {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center
+            
+          }
+          
+          img {
+            max-width: 100%
+          }
+          
+          .image {
+            flex-basis: 75%
+          }
+          
+          .battle-about {
+            
+            padding-left: 20px ;
+          }
+       
+          .battle-about p {padding: 8px;}
