@@ -1,14 +1,14 @@
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box
 }
 
-body{
+body {
     font-family: Lato, sans-serif;
     color: #3a3a3a;
     background-color: white;
-    min-height: 100vh;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,18 +16,21 @@ body{
 
 /* headings and logo */
 
-header {background-color: red;
-border-radius: 6px;
-margin: 4px;}
+header {
+    background-color: red;
+    border-radius: 6px;
+    margin: 4px;
+}
 
-h1, h2{
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -35,12 +38,13 @@ h1, h2{
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#logo, #menu{
+#logo,
+#menu {
     line-height: 75px;
 }
 
@@ -55,24 +59,28 @@ h1, h2{
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
-header { padding-bottom: auto;}
+
+header {
+    padding-bottom: auto;
+}
 
 
 /* navigation links images*/
 
-#other-pages {height: 600px;
-  clear: both;
-  margin: 8px;
+#other-pages {
+    height: 600px;
+    clear: both;
+    margin: 8px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 50%;
     float: left;
@@ -96,76 +104,102 @@ header { padding-bottom: auto;}
     height: 600px;
 }
 
-.left-about-heading  h2{color:white
-; text-align: center; line-height: 30px;}
-.right-about-heading h2{color:white
-    ; text-align: center; line-height: 30px;}
+.left-about-heading h2 {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.right-about-heading h2 {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
 
 
-    
-    
 
-        /* Footer */
-        footer {
-            background-color: red;
-            border-radius: 6px;
-            margin-top: auto;
-        width: 100%;}
-        
-    
-        
-      .sources {text-align: center; font-size: small; margin-top: 20px;}
 
-      .sources h2 {margin-bottom: 10px;}
 
-      .social-networks{
-       text-align: center;
-       
+/* Footer */
+footer {
+    background-color: red;
+    border-radius: 6px;
+    margin-top: 50px;
+    width: 100%;
+}
 
-        }
 
-      .social-networks li{
-        display: inline;
-        position: relative;
-        }   
 
-      .social-networks i{
-        font-size: 160%;
-        
-        padding: 5%;
-        color: #3a3a3a;
-        }     
-      
-      /* section about - ceasar */
-      
-      #about-ceasar p{
-    
-      margin: 8px;
-      }
+.sources {
+    text-align: center;
+    font-size: small;
+    margin-top: 50px;
+}
 
-      #about-ceasar h2 {
-        margin-top:50px;
-    margin-bottom: 16px;}
+.sources h2 {
+    margin-bottom: 10px;
+}
 
-    #about-ceasar {text-align: center;
-            width: 50%;
-           position: relative;
-           left: 25%;}
-           
-           #circle-container {
-            width: 300px;
-            height: 300px;
-            padding: 30px;
-            border-style: solid;
-            border-color: #cccccc;
-            border-width: 1px;
-            border-radius: 50%;
-            margin: 0 auto;
-        }
-        
-        #circle-cover-bg {
-            background: url(/assets/images/Julius\ cesar.jpg) no-repeat center center;
-            height: 100%;
-            border-radius: 50%;
-        }
-        
+.social-networks {
+    text-align: center;
+
+
+}
+
+.social-networks li {
+    display: inline;
+    position: relative;
+}
+
+.social-networks i {
+    font-size: 160%;
+
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* section about - ceasar */
+
+#about-ceasar p {
+
+    margin: 8px;
+}
+
+#about-ceasar h2 {
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+#about-ceasar {
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url(/assets/images/Julius\ cesar.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1050px){
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 20px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }}
