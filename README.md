@@ -1,108 +1,342 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Julius Ceasar
+Julius Ceasar is a website that allows users to go into depth of the life Julius Ceasar. It will give a detailed timeline of Ceasar political career until his death. it also gives a showcase of legendary battles that influenced his life. View the live site <a href="">here</a>
 
-Welcome Frangidha,
+Mockup
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Features
+Site wide
+Navigation Menu
+Contains links to the Home, Political Career and Legendary battles pages and will be responsive on all devices.xxxxx
+This will allow users to easily navigate between the pages within the site on any size device.
+Nav Menu picture
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Footer
+This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain bibliography of the website where all the text and info comes from. 
+This will allow the user to go to various social media where they can share the website. 
+The Bibliography will allow user to go the sources of the website and go even more into depth into the life of ceasar.
+Footer picture
 
-## Gitpod Reminders
+Landing Page
+Landing page image
+This will be a collection of the hero images from the politcal career and legendary battle page. 
+This will help to immediately show the user what the website is about.
+Landing Page Image
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Website information on 'Home'
+Information about 'Julius Ceasar' and the websites purpose including an image of "julius Ceasor" of one of his honorary statues.
+This information lets the user know what the site is about.
 
-`python3 -m http.server`
+picture
 
-A blue button should appear to click: _Make Public_,
+Political Career 
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Contact Form Received
 
-A blue button should appear to click: _Make Public_,
+will provide the user with a timeline of Ceasar political career. together with Basic information of what the different politcal positions are.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+Adventures
+Adventure Summary
+Sections containing 2 photos of the trip, a paragraph about the trip and a link to the gallery page to see more photos.
+The sections will give the user an overview of the adventures that Taco has been on and the links will take the user to the gallery page where the user can view all the pictures that have been uplaoded for that trip.
+Adventure Summary
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+More details dropdown
+Hidden sections at the end of each Adventure Summary that will show a more detailed description of the trip which may include more details about longer trips and information about places visited along the way.
+These section will be hidden by default so that user can only see the summaries on the page when loaded but the user will have ability with this feature to click and view more details at the end of the summary. This will allow user to easily scroll through the page and only view details of trips that they want to read more about.
+Details Dropdown
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Existing Features
+Responsive design
+Hidden interactive sections on Legendary Battle page
+Responsive gallery with filtering
+3 legendary battles and information
+Timeline of Political career
 
-------
+Features Left to Implement
+xxx
 
-## Release History
+xxx
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Design
+Wireframes
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Technologies
+HTML
+The structure of the Website was developed using HTML as the main language.
+CSS
+The Website was styled using custom CSS in an external file.
+Visual Studio Code
+The website was developed using Visual Studio Code IDE
+GitHub
+Source code is hosted on GitHub and delpoyed using Git Pages.
+Git
+Used to commit and push code during the development opf the Website
+Font Awesome
+Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+Testing
+Responsiveness
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Steps to test:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Open browser and navigate to Julius Ceasar
+Open the developer tools (right click and inspect)
+Set to responsive and decrease width to 320px
+Set the zoom to 50%
+Click and drag the responsive window to maximum width
+Expected:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Actual:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Website was also opened on the following devices and no responsive issues were seen:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Oukitel C21 Pro
+TCL 30 Pro
+iPhone SE
+Samsung Galaxy Tablet
+Accessibility
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Testing was focused to ensure the following criteria were met:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
+Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+All not textual content had alternative text or titles so descriptions are read out to screen readers
+HTML page lang attribute has been set
+Aria properties have been implemented correctly
+WCAG 2.1 Coding best practices being followed
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Issue #1: Use of hidden check boxes and labels for the gallery filter and accordion on the gallery page were not accessible via the keyboard due to the property display: none;
 
-------
+Fix: I could not find a way to fix this issue with html and css alone so a tabindex of 0 was added to allow the label to be tabbed to and an onkeypress event to target and click the correct checkbox was implemented. Javascript code was taken from this Mozilla Doc
 
-## FAQ about the uptime script
+Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
 
-**Why have you added this script?**
+Lighthouse Testing
+Home
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Gallery
 
-**How will this affect me?**
+Adventures
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Functional Testing
+Navigation Links
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Navigation Link	Page to Load
+Home	index.html
+Aventures	adventures.html
+Gallery	gallery.html
+Links on all pages navigated to the correct pages as exptected.
 
-**So….?**
+Form Testing
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
-**Can I opt out?**
+Scenario One - Correct Inputs
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Steps to test:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Navigate to Tacos Travels - Home Page
+Scroll down to the form and input the following data:
+First Name: John
+Last Name: Doe
+Email: doe.john@test.com
+Comment: This is a test.
+Click Submit
+User should be redirected to contact.html confirmation page
+Expected:
 
-**Anything more?**
+Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Actual:
 
----
+Website behaved as expected with no errors or warnings and redirected to contact.html.
 
-Happy coding!
+Scenario Two - Missing Required Field First Name
+
+Steps to test:
+
+Navigate to Tacos Travels - Home Page
+Scroll down to the form and input the following data:
+First Name:
+Last Name: Doe
+Email: doe.john@test.com
+Comment: This is a test.
+Click Submit
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+Scenario Three - Missing Required Field Last Name
+
+Steps to test:
+
+Navigate to Tacos Travels - Home Page
+Scroll down to the form and input the following data:
+First Name:John
+Last Name:
+Email: doe.john@test.com
+Comment: This is a test.
+Click Submit
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+Scenario Four - Missing Required Field Email
+
+Steps to test:
+
+Navigate to Tacos Travels - Home Page
+Scroll down to the form and input the following data:
+First Name:John
+Last Name: Doe
+Email:
+Comment: This is a test.
+Click Submit
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+Scenario Six - Incorrect email format
+
+Steps to test:
+
+Navigate to Tacos Travels - Home Page
+Scroll down to the form and input the following data:
+First Name:John
+Last Name: Doe
+Email: doe.johntest.com
+Comment: This is a test.
+Click Submit
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+Footer Social Media Icons / Links
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+
+Each item opened a new tab when clicked as expected and correct hover color was present.
+
+Footer Contact Information
+
+Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+
+Steps to test Telephone Number
+
+Navigate to Tacos Travels - Home Page
+Click the phone number in the footer (01 123 456 789)
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behavior was as expected and the window presented me with the following option to call:
+
+Oukitel Mobile Phone
+Steps to test Email Link
+
+Navigate to Tacos Travels - Home Page
+Click the email address in the footer (taco@gmail.com)
+Expected:
+
+A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+
+Actual:
+
+Behavior was as expected and my outlook application was opened ready to send an email to the target address.
+
+Validator Testing
+HTML
+No errors were returned when passing through the official W3C validator
+Contact HTML Validator Results
+
+Avdentures HTML Validator Results
+
+Home HTML Validator Results
+
+Gallery HTML Validator Results
+
+404 HTML Validator Results
+
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+CSS Validator Results
+
+Unfixed Bugs
+Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+
+Deployment
+Version Control
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+
+git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+
+git push - This command was used to push all committed code to the remote repository on github.
+
+Deployment to Github Pages
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the menu on left select 'Pages'
+From the source section drop-down menu, select the Branch: main
+Click 'Save'
+A live link will be displayed in a green banner when published successfully.
+The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/
+
+Clone the Repository Code Locally
+Navigate to the GitHub Repository you want to clone to use locally:
+
+Click on the code drop down button
+Click on HTTPS
+Copy the repository link to the clipboard
+Open your IDE of choice (git must be installed for the next steps)
+Type git clone copied-git-url into the IDE terminal
+The project will now of been cloned on your local machine for use.
+
+Credits
+Accordion without javascript
+Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
+Youtube Gallery Filter Tutorial
+Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device.
+Content
+All content with the exception of those listed in the Media section of this document was owned by Hair O'The Dog club members Rocket and Taco. Permission was granted from Rocket to use the images.
+
+Media
+Website Logo was created by my wife Daisy McGirr using Canva.
+
+Maps on the adventure page were from google maps timeline.
