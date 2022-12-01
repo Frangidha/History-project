@@ -142,106 +142,6 @@ Aventures	adventures.html
 Gallery	gallery.html
 Links on all pages navigated to the correct pages as exptected.
 
-Form Testing
-
-The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
-
-Scenario One - Correct Inputs
-
-Steps to test:
-
-Navigate to Tacos Travels - Home Page
-Scroll down to the form and input the following data:
-First Name: John
-Last Name: Doe
-Email: doe.john@test.com
-Comment: This is a test.
-Click Submit
-User should be redirected to contact.html confirmation page
-Expected:
-
-Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
-
-Actual:
-
-Website behaved as expected with no errors or warnings and redirected to contact.html.
-
-Scenario Two - Missing Required Field First Name
-
-Steps to test:
-
-Navigate to Tacos Travels - Home Page
-Scroll down to the form and input the following data:
-First Name:
-Last Name: Doe
-Email: doe.john@test.com
-Comment: This is a test.
-Click Submit
-Expected:
-
-The form does not submit and an Error is displayed to tell the user that the field is required.
-
-Actual:
-
-Website behaved as expected, error message was displayed and the form did not submit.
-
-Scenario Three - Missing Required Field Last Name
-
-Steps to test:
-
-Navigate to Tacos Travels - Home Page
-Scroll down to the form and input the following data:
-First Name:John
-Last Name:
-Email: doe.john@test.com
-Comment: This is a test.
-Click Submit
-Expected:
-
-The form does not submit and an Error is displayed to tell the user that the field is required.
-
-Actual:
-
-Website behaved as expected, error message was displayed and the form did not submit.
-
-Scenario Four - Missing Required Field Email
-
-Steps to test:
-
-Navigate to Tacos Travels - Home Page
-Scroll down to the form and input the following data:
-First Name:John
-Last Name: Doe
-Email:
-Comment: This is a test.
-Click Submit
-Expected:
-
-The form does not submit and an Error is displayed to tell the user that the field is required.
-
-Actual:
-
-Website behaved as expected, error message was displayed and the form did not submit.
-
-Scenario Six - Incorrect email format
-
-Steps to test:
-
-Navigate to Tacos Travels - Home Page
-Scroll down to the form and input the following data:
-First Name:John
-Last Name: Doe
-Email: doe.johntest.com
-Comment: This is a test.
-Click Submit
-Expected:
-
-The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
-
-Actual:
-
-Website behaved as expected, error message was displayed and the form did not submit.
-
 Footer Social Media Icons / Links
 
 Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
@@ -252,30 +152,6 @@ Footer Contact Information
 
 Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
 
-Steps to test Telephone Number
-
-Navigate to Tacos Travels - Home Page
-Click the phone number in the footer (01 123 456 789)
-Expected:
-
-A window is opened asking which device you would like to call from.
-
-Actual:
-
-Behavior was as expected and the window presented me with the following option to call:
-
-Oukitel Mobile Phone
-Steps to test Email Link
-
-Navigate to Tacos Travels - Home Page
-Click the email address in the footer (taco@gmail.com)
-Expected:
-
-A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
-
-Actual:
-
-Behavior was as expected and my outlook application was opened ready to send an email to the target address.
 
 Validator Testing
 HTML
@@ -316,7 +192,7 @@ From the menu on left select 'Pages'
 From the source section drop-down menu, select the Branch: main
 Click 'Save'
 A live link will be displayed in a green banner when published successfully.
-The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/
+The live link can be found here - xxxx
 
 Clone the Repository Code Locally
 Navigate to the GitHub Repository you want to clone to use locally:
@@ -329,14 +205,11 @@ Type git clone copied-git-url into the IDE terminal
 The project will now of been cloned on your local machine for use.
 
 Credits
-Accordion without javascript
-Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
-Youtube Gallery Filter Tutorial
-Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device.
-Content
-All content with the exception of those listed in the Media section of this document was owned by Hair O'The Dog club members Rocket and Taco. Permission was granted from Rocket to use the images.
+Timeline W3C schools
+Code was used from this site to create the accordian effect on the politcal career page timeline section. Styles were changed to suit styling on my Website.
+
+Code insitute
+the code insitute curriculum was used to develop the entire website.
 
 Media
-Website Logo was created by my wife Daisy McGirr using Canva.
-
-Maps on the adventure page were from google maps timeline.
+all media were taken form free image sources and wikepidia. the sources can be found the in the Bibliography

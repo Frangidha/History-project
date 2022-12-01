@@ -17,17 +17,20 @@ body {
 /* headings and logo */
 
 header {
-    background-color: red;
+    background-color: rgb(168, 9, 37);
     border-radius: 6px;
     margin: 4px;
 }
+
+header h1 {color: aliceblue;}
+
 
 h1,
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #463F43;
 }
 
 #logo {
@@ -38,7 +41,7 @@ h2 {
 
 /* navigation links */
 
-#menu {
+#menu {color: aliceblue;
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -60,11 +63,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid aliceblue;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid aliceblue;
 }
 
 header {
@@ -105,13 +108,13 @@ header {
 }
 
 .left-about-heading h2 {
-    color: white;
+    color: aliceblue;
     text-align: center;
     line-height: 30px;
 }
 
 .right-about-heading h2 {
-    color: white;
+    color: aliceblue;
     text-align: center;
     line-height: 30px;
 }
@@ -122,12 +125,15 @@ header {
 
 /* Footer */
 footer {
-    background-color: red;
+    background-color: rgb(168, 9, 37);
     border-radius: 6px;
     margin-top: 50px;
     width: 100%;
 }
 
+footer li{color: aliceblue;
+   
+}
 
 
 .sources {
@@ -137,7 +143,8 @@ footer {
 }
 
 .sources h2 {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    color: aliceblue;
 }
 
 .social-networks {
@@ -155,7 +162,7 @@ footer {
     font-size: 160%;
 
     padding: 5%;
-    color: #3a3a3a;
+    color: aliceblue;
 }
 
 /* section about - ceasar */
@@ -182,7 +189,7 @@ footer {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: rgb(168, 9, 37);
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -202,4 +209,13 @@ footer {
         margin-left: 20px; 
         margin-bottom: 20px;
         line-height: 25px;
+    }
+}
+    @media screen and (max-width: 600px){
+
+    #right-about, #left-about{
+        clear: both;
+        width: 100%;
+        height: 300px;
+        
     }}
