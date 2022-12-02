@@ -1,8 +1,6 @@
 Julius Ceasar
 Julius Ceasar is a website that allows users to go into depth of the life Julius Ceasar. It will give a detailed timeline of Ceasar political career until his death. it also gives a showcase of legendary battles that influenced his life. View the live site <a href="">here</a>
 
-Mockup
-
 Features
 Site wide
 Navigation Menu

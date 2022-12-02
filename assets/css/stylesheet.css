@@ -90,7 +90,8 @@ h2 {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    height: 600px;
+    height: auto;
+    min-height: 400px
 }
 
 #right-about {
@@ -102,7 +103,8 @@ h2 {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    height: 600px;
+    height: auto;
+    min-height: 400px
 }
 
 .left-about-heading h2 {
@@ -187,7 +189,7 @@ footer li{color: aliceblue;
     height: 300px;
     padding: 20px;
     border-style: solid;
-    border-color: RGB(209,155,47);
+    border-color:rgb(168, 9, 37);
     border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
@@ -210,7 +212,7 @@ footer li{color: aliceblue;
         line-height: 25px;
     }
 }
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 800px){
 
     #right-about, #left-about{
         clear: both;

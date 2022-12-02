@@ -89,7 +89,8 @@
           }
           
           img {
-            max-width: 100%
+            width: 100%;
+            min-height: 100px;
           }
           
           .image {
@@ -97,8 +98,10 @@
           }
           
           .battle-about {
-            
+            width: 50%;
             padding-left: 20px ;
           }
        
           .battle-about p {padding: 8px;}
+
+         
