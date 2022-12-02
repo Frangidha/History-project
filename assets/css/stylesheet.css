@@ -70,9 +70,7 @@ h2 {
     border-bottom: 1px solid aliceblue;
 }
 
-header {
-    padding-bottom: auto;
-}
+
 
 
 /* navigation links images*/
@@ -187,10 +185,10 @@ footer li{color: aliceblue;
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 20px;
     border-style: solid;
-    border-color: rgb(168, 9, 37);
-    border-width: 1px;
+    border-color: RGB(209,155,47);
+    border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -199,6 +197,7 @@ footer li{color: aliceblue;
     background: url(/assets/images/Julius\ cesar.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
+ 
 }
 
 @media screen and (max-width: 1050px){

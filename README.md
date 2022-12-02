@@ -23,35 +23,29 @@ This will help to immediately show the user what the website is about.
 Landing Page Image
 
 Website information on 'Home'
-Information about 'Julius Ceasar' and the websites purpose including an image of "julius Ceasor" of one of his honorary statues.
+Information about 'Julius Ceasar' and the websites purpose including an image of "julius Ceasar" of one of his honorary statues.
 This information lets the user know what the site is about.
 
 picture
 
 Political Career 
-
-
-Contact Form Received
-
 will provide the user with a timeline of Ceasar political career. together with Basic information of what the different politcal positions are.
 
 
 
-Adventures
-Adventure Summary
-Sections containing 2 photos of the trip, a paragraph about the trip and a link to the gallery page to see more photos.
-The sections will give the user an overview of the adventures that Taco has been on and the links will take the user to the gallery page where the user can view all the pictures that have been uplaoded for that trip.
-Adventure Summary
+Legendary Battles
+Legendary Battles Summary
+it explains why he was such a great and inspirational leader and how he gained all his successes.
 
-More details dropdown
-Hidden sections at the end of each Adventure Summary that will show a more detailed description of the trip which may include more details about longer trips and information about places visited along the way.
-These section will be hidden by default so that user can only see the summaries on the page when loaded but the user will have ability with this feature to click and view more details at the end of the summary. This will allow user to easily scroll through the page and only view details of trips that they want to read more about.
-Details Dropdown
+details containing 1 photos of the famous battle, a paragraph about the battle.
+The sections will give the user an overview of the legendary battles that "Julius ceasar"  was part of during his life.
+legendary battle picture  Summary
+
 
 Existing Features
 Responsive design
+navigation menu
 Hidden interactive sections on Legendary Battle page
-Responsive gallery with filtering
 3 legendary battles and information
 Timeline of Political career
 
@@ -81,13 +75,13 @@ Icons obtained from https://fontawesome.com/ were used as the Social media links
 wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
 Testing
 Responsiveness
-All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
+All pages were tested to ensure responsiveness on screen sizes from 600px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 
 Steps to test:
 
 Open browser and navigate to Julius Ceasar
 Open the developer tools (right click and inspect)
-Set to responsive and decrease width to 320px
+Set to responsive and decrease width to 600px
 Set the zoom to 50%
 Click and drag the responsive window to maximum width
 Expected:
@@ -96,15 +90,11 @@ Website is responsive on all screen sizes and no images are pixelated or stretch
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
+Website behaved as expected.
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-Oukitel C21 Pro
-TCL 30 Pro
-iPhone SE
-Samsung Galaxy Tablet
-Accessibility
+xxxx
 
 
 Testing was focused to ensure the following criteria were met:
@@ -118,18 +108,18 @@ Aria properties have been implemented correctly
 WCAG 2.1 Coding best practices being followed
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Issue #1: Use of hidden check boxes and labels for the gallery filter and accordion on the gallery page were not accessible via the keyboard due to the property display: none;
+Issue #1: xxx
 
-Fix: I could not find a way to fix this issue with html and css alone so a tabindex of 0 was added to allow the label to be tabbed to and an onkeypress event to target and click the correct checkbox was implemented. Javascript code was taken from this Mozilla Doc
+Fix: xxx
 
-Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
+Issue #2: xxx
 
-Lighthouse Testing
+index testing 
 Home
 
-Gallery
+Politcal Career
 
-Adventures
+Legendary Batlles
 
 Functional Testing
 Navigation Links
@@ -137,9 +127,10 @@ Navigation Links
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
 Navigation Link	Page to Load
-Home	index.html
-Aventures	adventures.html
-Gallery	gallery.html
+Home	    index.html
+Politcal Career	    politcal.html
+Legendary battles	battles.html
+
 Links on all pages navigated to the correct pages as exptected.
 
 Footer Social Media Icons / Links
@@ -148,9 +139,9 @@ Testing was performed on the Font Awesome Social Media icons in the footer to en
 
 Each item opened a new tab when clicked as expected and correct hover color was present.
 
-Footer Contact Information
+Footer bibliography
 
-Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+the footer was made with APA sourcing to the actual text/content creators.
 
 
 Validator Testing
@@ -158,20 +149,28 @@ HTML
 No errors were returned when passing through the official W3C validator
 Contact HTML Validator Results
 
-Avdentures HTML Validator Results
+index HTML Validator Results
 
-Home HTML Validator Results
+Poltical HTML Validator Results
 
-Gallery HTML Validator Results
-
-404 HTML Validator Results
+Battles HTML Validator Results
 
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 CSS Validator Results
 
+index CSS Validator Results
+picture
+
+Poltical CSS Validator Results
+picture
+
+Battle CSS Validator Results
+picture
+
+
 Unfixed Bugs
-Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+Responsiveness of the website worked on all devices, screen sizes.(check on phone)
 
 Deployment
 Version Control

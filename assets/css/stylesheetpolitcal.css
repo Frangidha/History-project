@@ -70,7 +70,7 @@ overflow: hidden;}
         width: 25px;
         height: 25px;
         right: -17px;
-        background-color: #A57C00;
+        background-color: RGB(209,155,47);
         border: 4px solid rgb(168, 9, 37);
         top: 15px;
         border-radius: 50%;
@@ -129,14 +129,14 @@ overflow: hidden;}
 
       }
 
-      .container:end {
+      .container:after {
         content: '';
         position: absolute;
         width: 25px;
         height: 25px;
         right: -17px;
         background-color: gray;
-        border: 4px solid red;
+        border: 4px solid rgb(168, 9, 37);
         top: 15px;
         border-radius: 50%;
         z-index: 1;
