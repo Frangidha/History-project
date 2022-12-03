@@ -76,9 +76,10 @@ h2 {
 /* navigation links images*/
 
 #other-pages {
-    height: 600px;
+    height: auto;
     clear: both;
     margin: 8px;
+    margin-bottom: 50px;
 }
 
 #left-about {
@@ -173,7 +174,7 @@ footer li{color: aliceblue;
 }
 
 #about-ceasar h2 {
-    margin-top: 50px;
+    margin-top: auto;
     margin-bottom: 16px;
 }
 
@@ -182,6 +183,7 @@ footer li{color: aliceblue;
     width: 50%;
     position: relative;
     left: 25%;
+    margin-top: auto;
 }
 
 #circle-container {
@@ -217,6 +219,9 @@ footer li{color: aliceblue;
     #right-about, #left-about{
         clear: both;
         width: 100%;
-        height: 300px;
+        height: auto;
         
-    }}
+        
+    }
+
+}
