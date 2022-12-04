@@ -204,6 +204,53 @@ footer li{color: aliceblue;
  
 }
 
+/* 404ERROR */
+.errorPage {
+    background: url(../images/404error.webp);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.errorPage__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.errorPage__button {
+    display: block;
+    cursor: pointer;
+    border: 1px solid white;
+    color: rgb(168, 9, 37);
+    padding: 10px 30px;
+    letter-spacing: 0.2em;
+    box-shadow: 7px 7px 20px #00000026;
+    background: white;
+    transition: transform 300ms ease;
+}
+
+.errorPage__button:active {
+    transform: translateY(2px);
+    box-shadow: 3px 3px 20px #00000026;
+}
+
+.errorPage__text h3 {
+    font-size: 20vw;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 0.2em;
+    margin-bottom: 50px;
+    color: white;
+}
+/* responsiveness*/
 @media screen and (max-width: 1050px){
 
     #menu{
