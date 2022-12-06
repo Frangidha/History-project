@@ -4,7 +4,7 @@ Julius Ceasar is a website that allows users to go into depth of the life Julius
 Features
 Site wide
 Navigation Menu
-Contains links to the Home, Political Career and Legendary battles pages and will be responsive on all devices.xxxxx
+Contains links to the Home, Political Career and Legendary battles pages and will be responsive on all devices(320px min-width).
 This will allow users to easily navigate between the pages within the site on any size device.
 Nav Menu picture
 
@@ -24,7 +24,7 @@ Website information on 'Home'
 Information about 'Julius Ceasar' and the websites purpose including an image of "julius Ceasar" of one of his honorary statues.
 This information lets the user know what the site is about.
 
-picture
+ <img src="assets/images/reademe/landingpage" alt="fortication built by Ceasar in Alesia">
 
 Political Career 
 will provide the user with a timeline of Ceasar political career. together with Basic information of what the different politcal positions are.
@@ -48,9 +48,8 @@ Hidden interactive sections on Legendary Battle page
 Timeline of Political career
 
 Features Left to Implement
-xxx
-
-xxx
+More content about ceasar and adding dropdown navigation bars.
+adding some animation for the picture 
 
 Design
 Wireframes
@@ -125,7 +124,7 @@ Navigation Links
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
 Navigation Link	Page to Load
-Home	    index.html
+Home	            index.html
 Politcal Career	    politcal.html
 Legendary battles	battles.html
 
@@ -168,11 +167,11 @@ picture
 
 
 Unfixed Bugs
-Responsiveness of the website worked on all devices, screen sizes.(check on phone)
+Responsiveness of the website worked on all devices and screen sizes.
 
 Deployment
 Version Control
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘history’.
 
 The following git commands were used throughout development to push code to the remote repo:
 

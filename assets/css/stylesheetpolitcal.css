@@ -1,3 +1,5 @@
+ /* hero image */  
+
 #hero-outer{
     height:auto;
     width: 100%;
@@ -44,7 +46,7 @@ overflow: hidden;}
         padding: 50px;
       }
       
-      /* The actual timeline (the vertical ruler) */
+      /* The actual timeline */
       .timeline::after {
         content: '';
         position: absolute;
@@ -98,10 +100,10 @@ overflow: hidden;}
         right: 30px;
         border: medium solid white;
         border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent gray;
+        border-color: transparent transparent transparent #333333;
       }
       
-      /* Add arrows to the right container (pointing left) */
+      /* Add arrows (pointing left) */
       .right::before {
         content: " ";
         height: 0;
@@ -112,7 +114,7 @@ overflow: hidden;}
         left: 30px;
         border: medium solid white;
         border-width: 10px 10px 10px 0;
-        border-color: transparent gray transparent transparent;
+        border-color: transparent #333333 transparent transparent;
       }
       
       /* Fix the circle for containers on the right side */
@@ -123,10 +125,15 @@ overflow: hidden;}
       /* The actual content */
       .content {
         padding: 20px 30px;
-        background-color: gray;
+        background-color: #333333;
         position: relative;
         border-radius: 6px;
-
+        color: aliceblue;
+      }
+      .content h3{
+        font-size: 150%;
+        
+        
       }
 
       .container:after {
@@ -135,7 +142,7 @@ overflow: hidden;}
         width: 25px;
         height: 25px;
         right: -17px;
-        background-color: gray;
+        background-color: #333333;
         border: 4px solid rgb(168, 9, 37);
         top: 15px;
         border-radius: 50%;
@@ -151,7 +158,7 @@ overflow: hidden;}
           bottom: 15%;
         }
       
-      /* Full-width containers */
+      /* containers */
         .container {
           width: 100%;
           padding-left: 70px;
