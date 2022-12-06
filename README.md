@@ -24,7 +24,7 @@ Website information on 'Home'
 Information about 'Julius Ceasar' and the websites purpose including an image of "julius Ceasar" of one of his honorary statues.
 This information lets the user know what the site is about.
 
- <img src="assets/images/reademe/landingpage" alt="fortication built by Ceasar in Alesia">
+ <img src="assets/images/reademe/landingpage.jpg" alt="fortication built by Ceasar in Alesia">
 
 Political Career 
 will provide the user with a timeline of Ceasar political career. together with Basic information of what the different politcal positions are.
