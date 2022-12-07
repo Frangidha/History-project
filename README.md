@@ -8,7 +8,7 @@ Contains links to the Home, Political Career and Legendary battles pages and wil
 This will allow users to easily navigate between the pages within the site on any size device.
 Nav Menu picture
 
-Footer
+<h2>Footer</h2>
 This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain bibliography of the website where all the text and info comes from. 
 This will allow the user to go to various social media where they can share the website. 
 The Bibliography will allow user to go the sources of the website and go even more into depth into the life of ceasar.
