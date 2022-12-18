@@ -59,7 +59,7 @@ adding some animation for the picture. </p>
 <h3>Design</h3>
 <h4>website design</h4>
 <p>Home page</p>
-<img src="docs/readme/landinpagewireframe.jpg" alt="design of the landing page">
+<img src="docs/readme/landingpagewireframe.jpg" alt="design of the landing page">
 <p>Political Career</p>
 <img src="docs/readme/websitepolitical.jpg" alt="design of the Political Career page">
 <p>Battle</p>
@@ -199,25 +199,27 @@ git commit -m “commit message” - This command was used to commit changes to 
 
 git push - This command was used to push all committed code to the remote repository on github.
 
-Deployment to Github Pages
+<h4>Deployment to Github Pages</h4>
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the menu on left select 'Pages'
-From the source section drop-down menu, select the Branch: main
-Click 'Save'
-A live link will be displayed in a green banner when published successfully.
-The live link can be found here - xxxx
+<ul>
+<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>From the menu on left select 'Pages'</li>
+<li>From the source section drop-down menu, select the Branch: main</li>
+<li>Click 'Save'</li>
+<li>A live link will be displayed in a green banner when published successfully.</li>
+<li>The live link can be found here - xxxx</li>
+ </ul>
 
-Clone the Repository Code Locally
+<h4>Clone the Repository Code Locally</h4>
 Navigate to the GitHub Repository you want to clone to use locally:
-
-Click on the code drop down button
-Click on HTTPS
-Copy the repository link to the clipboard
-Open your IDE of choice (git must be installed for the next steps)
-Type git clone copied-git-url into the IDE terminal
-The project will now of been cloned on your local machine for use.
-
+<ul>
+<li>Click on the code drop down button</li>
+<li>Click on HTTPS</li>
+<li>Copy the repository link to the clipboard</li>
+<li>Open your IDE of choice (git must be installed for the next steps)</li>
+<li>Type git clone copied-git-url into the IDE terminal</li>
+<li>The project will now of been cloned on your local machine for use.</li>
+</ul>
 <h3>Credits</h3>
 Timeline W3C schools
 Code was inspirited from this site to create the accordian effect on the politcal career page timeline section. Styles were changed to suit styling on my Website.
