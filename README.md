@@ -1,5 +1,5 @@
 <h1>Julius Ceasar</h1>
-Julius Ceasar is a website that allows users to go into depth of the life Julius Ceasar. It will give a detailed timeline of Ceasar political career until his death. it also gives a showcase of legendary battles that influenced his life. View the live site <a href="">here</a>
+Julius Ceasar is a website that allows users to go into depth of the life Julius Ceasar. It will give a detailed timeline of Ceasar political career until his death. it also gives a showcase of legendary battles that influenced his life. View the live site <a href="https://frangidha.github.io/History-project/">here</a>
 
 <h3>Features</h3>
 <ul>
@@ -207,7 +207,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 <li>From the source section drop-down menu, select the Branch: main</li>
 <li>Click 'Save'</li>
 <li>A live link will be displayed in a green banner when published successfully.</li>
-<li>The live link can be found here - xxxx</li>
+<li>The live link can be found here - https://frangidha.github.io/History-project/</li>
  </ul>
 
 <h4>Clone the Repository Code Locally</h4>
