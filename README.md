@@ -148,18 +148,18 @@ Legendary battles	battles.html
 
 Links on all pages navigated to the correct pages as exptected.
 
-Footer Social Media Icons / Links
+<h4>Footer Social Media Icons / Links</h4>
 
-Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
 
-Each item opened a new tab when clicked as expected and correct hover color was present.
+Each item opened a new tab when clicked as expected.
 
 Footer bibliography
 
 the footer was made with APA sourcing to the actual text/content creators.
 
 
-</h4>Validator Testing</h4>
+<h4>Validator Testing</h4>
 <ul>
 <li>HTML</li>
 <p>No errors were returned when passing through the official W3C validator</p>
@@ -220,10 +220,10 @@ The project will now of been cloned on your local machine for use.
 
 <h3>Credits</h3>
 Timeline W3C schools
-Code was used from this site to create the accordian effect on the politcal career page timeline section. Styles were changed to suit styling on my Website.
+Code was inspirited from this site to create the accordian effect on the politcal career page timeline section. Styles were changed to suit styling on my Website.
 
 Code insitute
 the code insitute curriculum was used to develop the entire website.
 
 <h3>Media</h3>
-<p>all media were taken form <a href="https://www.shutterstock.com/explore/flex-subscriptions?c3apidt=p68161268801&gclid=EAIaIQobChMI0vGyntaD_AIVjd1RCh05jgE2EAAYASAAEgLsDvD_BwE&gclsrc=aw.ds&kw=free%20pictures">free image sources</a>() and <a href="https://www.wikipedia.org/">wikepidia</a>. the sources can be found in the Bibliography (see footer)</p>
+<p>all media were taken form <a href="https://www.shutterstock.com/explore/flex-subscriptions?c3apidt=p68161268801&gclid=EAIaIQobChMI0vGyntaD_AIVjd1RCh05jgE2EAAYASAAEgLsDvD_BwE&gclsrc=aw.ds&kw=free%20pictures">free image sources</a> and <a href="https://www.wikipedia.org/">wikepidia</a>. the sources can be found in the Bibliography (see footer)</p>
