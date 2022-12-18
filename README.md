@@ -2,43 +2,46 @@
 Julius Ceasar is a website that allows users to go into depth of the life Julius Ceasar. It will give a detailed timeline of Ceasar political career until his death. it also gives a showcase of legendary battles that influenced his life. View the live site <a href="">here</a>
 
 <h3>Features</h3>
-Site wide
-Navigation Menu
-Contains links to the Home, Political Career and Legendary battles pages and will be responsive on all devices(320px min-width).
-This will allow users to easily navigate between the pages within the site on any size device.
-Nav Menu picture
+<ul>
+<li>Site wide</li>
+<li>Navigation Menu</li>
+<li>Contains links to the Home, Political Career and Legendary battles pages and will be responsive on all devices(320px min-width).
+This will allow users to easily navigate between the pages within the site on any size device.</li>
 
+</ul>
 <h3>Footer</h3>
 <p>This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain bibliography of the website where all the text and info comes from. 
 This will allow the user to go to various social media where they can share the website. 
 The Bibliography will allow user to go the sources of the website and go even more into depth into the life of ceasar.
-Footer picture</p>
+</p>
+
 
 <h3>Landing Page</h3>
 <p>Landing page image
 This will be a collection of the hero images from the politcal career and legendary battle page. 
 This will help to immediately show the user what the website is about.
-Landing Page Image</p>
+</p>
 
 <h3>Website information on 'Home'</h3>
 <p>Information about 'Julius Ceasar' and the websites purpose including an image of "julius Ceasar" of one of his honorary statues.
 This information lets the user know what the site is about.</p>
 
- <img src="assets/images/reademe/landingpage.jpg" alt="fortication built by Ceasar in Alesia">
+ <img src="docs/readme/landingpage.jpg" alt="picture of the landingpage of the website">
 
 <h3>Website information on 'Political Career'</h3>
 <p>will provide the user with a timeline of Ceasar political career. together with Basic information of what the different politcal positions are.</p>
 
+<img src="docs/readme/Politcalcareer.jpg" alt="picture of the polical career page">
 
 
 <h3>Website information on 'Legendary Battles'</h3>
 <p>Legendary Battles Summary
 it explains why he was such a great and inspirational leader and how he gained all his successes.</p>
+<img src="docs/readme/Politcalcareer.jpg" alt="picture of the battle page">
 
 <p>details containing one photo of the famous battle, a paragraph about the battle.
 The sections will give the user an overview of the legendary battles that "Julius ceasar"  was part of during his life.</p>
-legendary battle picture  Summary
-
+<img src="docs/readme/battledetail.jpg" alt="picture of details of a battle">
 
 <h3>Existing Features</h3>
 <ul>
@@ -50,48 +53,62 @@ legendary battle picture  Summary
 </ul>
 
 <h3>Features Left to Implement</h3>
-<p>More content about ceasar and adding dropdown navigation bars.
-adding some animation for the picture</p> 
+<p>More content about ceasar and adding dropdown navigation bars(adding videos).
+adding some animation for the picture. </p> 
 
 <h3>Design</h3>
-Wireframes
+<h4>website design</h4>
+<p>Home page</p>
+<img src="docs/readme/landinpagewireframe.jpg" alt="design of the landing page">
+<p>Political Career</p>
+<img src="docs/readme/websitepolitical.jpg" alt="design of the Political Career page">
+<p>Battle</p>
+<img src="docs/readme/wirebattlewebsite.jpg" alt="design of the battle page">
 
-
+<h4>phone design</h4>
+<p>Home page</p>
+<img src="docs/readme/wirelandphone.jpg" alt="design of the landing page">
+<p>Political Career</p>
+<img src="docs/readme/wirepoliticalphone.jpg" alt="design of the Political Career page">
+<p>Battle</p>
+<img src="docs/readme/wirebattlephone.jpg" alt="design of the battle page">
 
 <h3>Technologies</h3>
-HTML
-The structure of the Website was developed using HTML as the main language.
-CSS
-The Website was styled using custom CSS in an external file.
-Visual Studio Code
-The website was developed using Visual Studio Code IDE
-GitHub: Source code is hosted on GitHub and delpoyed using Git Pages.
-Git: Used to commit and push code during the development opf the Website
-Font Awesome
-Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
-wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+<ul>
+<li>HTML</li>
+<p>The structure of the Website was developed using HTML as the main language.</p>
+<li>CSS</li>
+<p>The Website was styled using custom CSS in an external file.</p>
+<li>Visual Studio Code</li>
+<p>The website was developed using Visual Studio Code IDE</p>
+<li>GitHub </li>
+<p>Source code is hosted on GitHub and delpoyed using Git Pages.</p>
+<li>Git </li>
+<p>Used to commit and push code during the development opf the Website</p>
+<li>Font Awesome</li>
+<p>Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#</p>
+</ul>
 <h3>Testing</h3>
-Responsiveness
-All pages were tested to ensure responsiveness on screen sizes from 600px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
+<h4>Responsiveness</h4>
+<p>All pages were tested to ensure responsiveness on screen sizes from 600px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.</p>
 
-Steps to test:
+<p>Steps to test:</p>
 
-Open browser and navigate to Julius Ceasar
+<p>Open browser and navigate to Julius Ceasar
 Open the developer tools (right click and inspect)
 Set to responsive and decrease width to 600px
 Set the zoom to 50%
-Click and drag the responsive window to maximum width
-Expected:
+Click and drag the responsive window to maximum width</p>
+<p>Expected:</p>
 
-Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+<p>Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.</p>
 
-Actual:
+<p>Actual:</p>
 
-Website behaved as expected.
+<p>Website behaved as expected.</p>
 
-Website was also opened on the following devices and no responsive issues were seen:
-
-xxxx
+<p>Website was also opened on the following devices and no responsive issues were observed
 
 
 Testing was focused to ensure the following criteria were met:
@@ -170,7 +187,7 @@ picture
 Responsiveness of the website worked on all devices and screen sizes.
 
 <h3>Deployment</h3>
-Version Control
+<h4>Version Control</h4>
 The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘history’.
 
 The following git commands were used throughout development to push code to the remote repo:
