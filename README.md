@@ -108,10 +108,10 @@ Click and drag the responsive window to maximum width</p>
 
 <p>Website behaved as expected.</p>
 
-<p>Website was also opened on the following devices and no responsive issues were observed
+<p>Website was also opened on the following devices and no responsive issues were observed</p>
 
 
-Testing was focused to ensure the following criteria were met:
+<h4>Testing was focused to ensure the following criteria were met:</h4>
 
 Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
 Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
@@ -136,7 +136,8 @@ Politcal Career
 Legendary Batlles
 
 Functional Testing
-Navigation Links
+
+<h4>Navigation Links</h4>
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
@@ -159,9 +160,9 @@ the footer was made with APA sourcing to the actual text/content creators.
 
 
 </h4>Validator Testing</h4>
-HTML
-No errors were returned when passing through the official W3C validator
-Contact HTML Validator Results
+<ul>
+<li>HTML</li>
+<p>No errors were returned when passing through the official W3C validator</p>
 
 index HTML Validator Results
 
@@ -169,19 +170,19 @@ Poltical HTML Validator Results
 
 Battles HTML Validator Results
 
-CSS
-No errors were found when passing through the official (Jigsaw) validator
+<li>CSS</li>
+<p>No errors were found when passing through the official (Jigsaw) validator</p>
 CSS Validator Results
 
-index CSS Validator Results
+<p>index CSS Validator Results</p>
 picture
 
-Poltical CSS Validator Results
+<p>Poltical CSS Validator Results</p>
 picture
 
-Battle CSS Validator Results
+<p>Battle CSS Validator Results</p>
 picture
-
+</ul>
 
 <h3>Unfixed Bugs</h3>
 Responsiveness of the website worked on all devices and screen sizes.
@@ -217,12 +218,12 @@ Open your IDE of choice (git must be installed for the next steps)
 Type git clone copied-git-url into the IDE terminal
 The project will now of been cloned on your local machine for use.
 
-Credits
+<h3>Credits</h3>
 Timeline W3C schools
 Code was used from this site to create the accordian effect on the politcal career page timeline section. Styles were changed to suit styling on my Website.
 
 Code insitute
 the code insitute curriculum was used to develop the entire website.
 
-Media
-all media were taken form free image sources and wikepidia. the sources can be found the in the Bibliography
+<h3>Media</h3>
+<p>all media were taken form <a href="https://www.shutterstock.com/explore/flex-subscriptions?c3apidt=p68161268801&gclid=EAIaIQobChMI0vGyntaD_AIVjd1RCh05jgE2EAAYASAAEgLsDvD_BwE&gclsrc=aw.ds&kw=free%20pictures">free image sources</a>() and <a href="https://www.wikipedia.org/">wikepidia</a>. the sources can be found in the Bibliography (see footer)</p>
