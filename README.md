@@ -39,7 +39,7 @@ This information lets the user know what the site is about.</p>
 <h3>Website information on 'Legendary Battles'</h3>
 <p>Legendary Battles Summary
 it explains why he was such a great and inspirational leader and how he gained all his successes.</p>
-<img src="docs/readme/Politcalcareer.jpg" alt="picture of the battle page">
+<img src="docs/readme/battlepage.jpg" alt="picture of the battle page">
 
 <p>details containing one photo of the famous battle, a paragraph about the battle.
 The sections will give the user an overview of the legendary battles that "Julius ceasar"  was part of during his life.</p>
@@ -98,12 +98,13 @@ adding some animation for the pictures. </p>
 <p>All pages were tested to ensure responsiveness on screen sizes from 500px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.</p>
 
 <p>Steps to test:</p>
-
-<p>Open browser and navigate to Julius Ceasar
-Open the developer tools (right click and inspect)
-Set to responsive and decrease width to 600px
-Set the zoom to 50%
-Click and drag the responsive window to maximum width</p>
+<ul>
+<li>Open browser and navigate to Julius Ceasar</li>
+<li>Open the developer tools (right click and inspect)</li>
+<li>Set to responsive and decrease width to 320px</li>
+<li>Set the zoom to 50%</li>
+<li>Click and drag the responsive window to maximum width</li>
+</ul>
 <p>Expected:</p>
 
 <p>Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.</p>
