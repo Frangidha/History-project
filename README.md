@@ -9,12 +9,14 @@ Julius Ceasar is a website that allows users to go into depth of the life Julius
 This will allow users to easily navigate between the pages within the site on any size device.</li>
 
 </ul>
+<img src="docs/readme/Navigation.jpg" alt="navigation">
+
 <h3>Footer</h3>
 <p>This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain bibliography of the website where all the text and info comes from. 
 This will allow the user to go to various social media where they can share the website. 
 The Bibliography will allow user to go the sources of the website and go even more into depth into the life of ceasar.
 </p>
-
+<img src="docs/readme/footer.jpg" alt="footer">
 
 <h3>Landing Page</h3>
 <p>Landing page image
@@ -54,7 +56,7 @@ The sections will give the user an overview of the legendary battles that "Juliu
 
 <h3>Features Left to Implement</h3>
 <p>More content about ceasar and adding dropdown navigation bars(adding videos).
-adding some animation for the picture. </p> 
+adding some animation for the pictures. </p> 
 
 <h3>Design</h3>
 <h4>website design</h4>
@@ -87,11 +89,13 @@ adding some animation for the picture. </p>
 <p>Used to commit and push code during the development opf the Website</p>
 <li>Font Awesome</li>
 <p>Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
-wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#</p>
+</p>
+<li>balsamiq</li>
+<p>wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#</p>
 </ul>
 <h3>Testing</h3>
 <h4>Responsiveness</h4>
-<p>All pages were tested to ensure responsiveness on screen sizes from 600px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.</p>
+<p>All pages were tested to ensure responsiveness on screen sizes from 500px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.</p>
 
 <p>Steps to test:</p>
 
@@ -122,11 +126,9 @@ Aria properties have been implemented correctly
 WCAG 2.1 Coding best practices being followed
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Issue #1: xxx
+Issue #1: background images didn't display 
 
-Fix: xxx
-
-Issue #2: xxx
+Fix: changed the absolute path way to a relative pathway
 
 index testing 
 Home
@@ -142,9 +144,9 @@ Functional Testing
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
 Navigation Link	Page to Load
-Home	            index.html
-Politcal Career	    politcal.html
-Legendary battles	battles.html
+Home	              index.html
+Politcal Career	      politcal.html
+Legendary battles	  battles.html
 
 Links on all pages navigated to the correct pages as exptected.
 
@@ -166,26 +168,35 @@ the footer was made with APA sourcing to the actual text/content creators.
 
 index HTML Validator Results
 
+<img src="docs/readme/indexW3Chtml.jpg" alt="validator results index page HTML" width = 25%>
+
 Poltical HTML Validator Results
 
+<img src="docs/readme/PolitcalW3CHTML.jpg" alt="validator results Political Career page HTML" width = 25%>
+
 Battles HTML Validator Results
+
+<img src="docs/readme/battlesW3Chtml.jpg" alt="validator results Political Career page HTML" width = 25%>
+
+404 HTML Validator Results
 
 <li>CSS</li>
 <p>No errors were found when passing through the official (Jigsaw) validator</p>
 CSS Validator Results
 
 <p>index CSS Validator Results</p>
-picture
+<img src="docs/readme/indexW3Ccss.jpg" alt="validator results index page CSS" width = 40%>
 
 <p>Poltical CSS Validator Results</p>
-picture
+<img src="docs/readme/politicalW3Ccss.jpg" alt="validator results political page CSS" width = 40%>
+
 
 <p>Battle CSS Validator Results</p>
-picture
+<img src="docs/readme/battleW3Ccss.jpg" alt="validator results battles page CSS" width = 40%>
 </ul>
 
 <h3>Unfixed Bugs</h3>
-Responsiveness of the website worked on all devices and screen sizes.
+Responsiveness of the website worked on all devices and screen sizes. On very small screen the image of ceasar doesn't stay center.
 
 <h3>Deployment</h3>
 <h4>Version Control</h4>
