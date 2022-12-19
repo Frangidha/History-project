@@ -272,5 +272,14 @@ footer li{color: aliceblue;
         
         
     }
-
 }
+@media screen and (max-width: 650px){
+
+    #menu{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+        
+        
+    }
+
