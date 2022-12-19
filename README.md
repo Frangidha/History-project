@@ -132,9 +132,13 @@ Issue #1: background images didn't display
 Fix: changed the absolute path way to a relative pathway
 
 <h3>lighthouse testing</h3>
-<img src="docs/readme/lighthousereport.jpg" alt="lighthousereport homepage">
-img
-img 
+<p>Home page</p>
+<img src="docs/readme/lighthousereport.jpg" alt="lighthouse report Home Page" width=30%>
+<p>Political Career page</p>
+<img src="docs/readme/politicallighthouse.jpg" alt="lighthouse report Political Career Page" width=30%>
+<p>Legendary Battle page</p>
+<img src="docs/readme/battlelighthouse.jpg" alt="lighthouse report Legendary Battle Page" width=30%>
+
 <h3>Functional Testing</h3>
 
 <h4>Navigation Links</h4>
