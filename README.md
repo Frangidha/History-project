@@ -133,11 +133,11 @@ Fix: changed the absolute path way to a relative pathway
 
 <h3>lighthouse testing</h3>
 <p>Home page</p>
-<img src="docs/readme/lighthousereport.jpg" alt="lighthouse report Home Page" width=30%>
+<img src="docs/readme/lighthousereport.jpg" alt="lighthouse report Home Page" width=40% height=60px>
 <p>Political Career page</p>
-<img src="docs/readme/politicallighthouse.jpg" alt="lighthouse report Political Career Page" width=30%>
+<img src="docs/readme/politicallighthouse.jpg" alt="lighthouse report Political Career Page" width=40% height=60px>
 <p>Legendary Battle page</p>
-<img src="docs/readme/battlelighthouse.jpg" alt="lighthouse report Legendary Battle Page" width=30%>
+<img src="docs/readme/battlelighthouse.jpg" alt="lighthouse report Legendary Battle Page" width=40% height=60px>
 
 <h3>Functional Testing</h3>
 
