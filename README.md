@@ -131,14 +131,9 @@ Issue #1: background images didn't display
 
 Fix: changed the absolute path way to a relative pathway
 
-index testing 
-Home
+<h3>lighthouse testing</h3>
 
-Politcal Career
-
-Legendary Batlles
-
-Functional Testing
+<h3>Functional Testing</h3>
 
 <h4>Navigation Links</h4>
 
