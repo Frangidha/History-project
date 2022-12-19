@@ -86,7 +86,7 @@ h2 {
     padding-top: 30px;
     width: 50%;
     float: left;
-    background-image: url("/assets/images/politcal.jpg");
+    background-image: url("../images/politcal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -99,7 +99,7 @@ h2 {
     padding-top: 30px;
     width: 50%;
     float: right;
-    background-image: url("/assets/images/legendary\ battles.jpg");
+    background-image: url("../images/legendary\ battles.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,7 +200,7 @@ footer li{color: aliceblue;
 }
 
 #circle-cover-bg {
-    background: url(/assets/images/Julius\ cesar.jpg) no-repeat center center;
+    background: url(../images/Julius\ cesar.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
  
