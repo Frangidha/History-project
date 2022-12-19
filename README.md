@@ -132,7 +132,9 @@ Issue #1: background images didn't display
 Fix: changed the absolute path way to a relative pathway
 
 <h3>lighthouse testing</h3>
-
+<img src="docs/readme/lighthousereport.jpg" alt="lighthousereport homepage">
+img
+img 
 <h3>Functional Testing</h3>
 
 <h4>Navigation Links</h4>
@@ -175,6 +177,8 @@ Battles HTML Validator Results
 <img src="docs/readme/battlesW3Chtml.jpg" alt="validator results Political Career page HTML" width = 25%>
 
 404 HTML Validator Results
+
+image
 
 <li>CSS</li>
 <p>No errors were found when passing through the official (Jigsaw) validator</p>
