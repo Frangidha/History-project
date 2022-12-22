@@ -108,13 +108,17 @@ adding some animation for the pictures. </p>
 </ul>
 <p>Expected:</p>
 
-<p>Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.</p>
+<p>Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.(chrome,edge) </p>
 
 <p>Actual:</p>
 
 <p>Website behaved as expected.</p>
 
 <p>Website was also opened on the following devices and no responsive issues were observed</p>
+<ul>
+<li>iPhoneSE</li>
+<li>Samsung</li>
+</ul>
 
 
 <h4>Testing was focused to ensure the following criteria were met:</h4>
@@ -237,7 +241,7 @@ Navigate to the GitHub Repository you want to clone to use locally:
 <li>The project will now of been cloned on your local machine for use.</li>
 </ul>
 <h3>Credits</h3>
-Timeline W3C schools
+Timeline W3C schools for inspirition
 Code was inspirited from this site to create the accordian effect on the politcal career page timeline section. Styles were changed to suit styling on my Website.
 
 Code insitute
