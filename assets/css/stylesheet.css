@@ -221,7 +221,7 @@ footer li{color: aliceblue;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-top: -5%;
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -230,7 +230,7 @@ footer li{color: aliceblue;
 .errorPage__button {
     display: block;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid rgb(168, 9, 37);
     color: rgb(168, 9, 37);
     padding: 10px 30px;
     letter-spacing: 0.2em;
