@@ -7,7 +7,7 @@ Julius Ceasar is a website that allows users to go into depth of the life Julius
 <li>Navigation Menu</li>
 <li>Contains links to the Home, Political Career and Legendary battles pages and will be responsive on all devices(320px min-width).
 This will allow users to easily navigate between the pages within the site on any size device.</li>
-<li>404 page</li>
+
 </ul>
 <img src="docs/readme/Navigation.jpg" alt="navigation">
 
@@ -52,6 +52,7 @@ The sections will give the user an overview of the legendary battles that "Juliu
 <li>Hidden interactive sections on Legendary Battle page</li>
 <li>3 legendary battles and information</li>
 <li>Timeline of Political career</li>
+<li>404 page</li>
 </ul>
 
 <h3>Features Left to Implement</h3>
