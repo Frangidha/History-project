@@ -156,8 +156,12 @@ overflow: hidden;}
         .timeline::after {
           left: 82px;
           bottom: 15%;
+        
         }
-      
+        .content {
+          padding: 10px 15px;
+         
+        }
       /* containers */
         .container {
           width: 100%;
