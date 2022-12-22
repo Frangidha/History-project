@@ -55,6 +55,9 @@ The sections will give the user an overview of the legendary battles that "Juliu
 <li>404 page</li>
 </ul>
 
+<h3>404 page</h3>
+an error page has been developped in case links are missing or wrong. it has a button that will bring you back to the landing page.
+<img src="docs/readme/404.jpg" alt="picture of 404 page">
 <h3>Features Left to Implement</h3>
 <p>More content about ceasar and adding dropdown navigation bars(adding videos).
 adding some animation for the pictures. </p> 
@@ -117,7 +120,10 @@ adding some animation for the pictures. </p>
 <p>Website was also opened on the following devices and no responsive issues were observed</p>
 <ul>
 <li>iPhoneSE</li>
-<li>Samsung</li>
+<li>Samsung Galaxy S8</li>
+<li>iPad Air</li>
+<li>Samsung Galaxy A51/71</li>
+<li>Nest Hub Max</li>
 </ul>
 
 
