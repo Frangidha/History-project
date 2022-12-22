@@ -193,7 +193,7 @@ Battles HTML Validator Results
 
 404 HTML Validator Results
 
-image
+no errors were found
 
 <li>CSS</li>
 <p>No errors were found when passing through the official (Jigsaw) validator</p>
