@@ -250,8 +250,8 @@ footer li{color: aliceblue;
     line-height: 1;
     margin: 0;
     letter-spacing: 0.2em;
-    margin-bottom: 50px;
-    color: white;
+    margin-bottom: 25px;
+    color: aliceblue;
 }
 /* responsiveness*/
 @media screen and (max-width: 1050px){

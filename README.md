@@ -96,6 +96,9 @@ adding some animation for the pictures. </p>
 </p>
 <li>balsamiq</li>
 <p>wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#</p>
+<li>Favicon.io</li>
+<p>favicon files were created at https://favicon.io/favicon-converter/</p>
+<img src="docs/readme/favicon.jpg" alt="Picture of the favicon icon">
 </ul>
 <h3>Testing</h3>
 <h4>Responsiveness</h4>
