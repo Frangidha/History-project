@@ -1,5 +1,5 @@
 <h1>Julius Ceasar</h1>
-Julius Ceasar is a website that allows users to go into depth of the life Julius Ceasar. It will give a detailed timeline of Ceasar political career until his death. it also gives a showcase of legendary battles that influenced his life. View the live site <a href="https://frangidha.github.io/History-project/" target=”_blank”>here</a>
+Julius Ceasar is a website that allows users to go into depth of the life Julius Ceasar. It will give a detailed timeline of Ceasar political career until his death. it also gives a showcase of legendary battles that influenced his life. View the live site <a href="https://frangidha.github.io/History-project/" target="_blank" rel="noopener">here</a>
 
 <h3>Features</h3>
 <ul>
